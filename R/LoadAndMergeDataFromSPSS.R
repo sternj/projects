@@ -1,7 +1,7 @@
 
 library(foreign)
-set1 <- read.spss("D:/binar/Pictures/downloads/2014_Afghanistan_dataset_FINAL_11142014.sav", to.data.frame=TRUE)
-set2 <- read.spss("D:/binar/Documents/FeedbackHub/NewDir/2015_Azerbaijan_dataset_SAV.sav", to.data.frame = TRUE)
+set1 <- read.spss("path/to/file1.sav", to.data.frame=TRUE)
+set2 <- read.spss("path/to/file2.sav", to.data.frame = TRUE)
 #Why not read.csv? Read.csv doesn't have the question labels. Granted, the rbind function
 #doesn't either, but we'll ignore that and deal with it later
 
