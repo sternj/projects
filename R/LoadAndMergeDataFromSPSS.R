@@ -1,3 +1,6 @@
+#NOTE: writeForeignSPSS is a slight modification of the function found in the cran/foreign repo located here: https://github.com/cran/foreign
+#This package is licensed under the GNU gpl-2, which can be found here: https://github.com/cran/foreign/blob/master/GPL-2
+#All other code is under the unlicense
 mergeData <- function(source1, source2, destination) {
   options(error=NULL)
   adQuote <- function(x) paste("\"", x, "\"", sep = "")
